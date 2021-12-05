@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Table</title>
+	<style>
+		table, th, td, tr
+		{
+			border: 2px solid darkgreen;
+			border-collapse: collapse;
+		}
+		th, td, tr
+		{
+			padding: 4px;
+			text-align: center;
+		}
+		th 
+		{
+			background-color: blueviolet;
+		}
+		tr 
+		{
+			background-color: skyblue;
+		}
+
+	</style>
+
+
+</head>
+<body>
+
+<h3 style="text-align: center;">Basic Table</h3>
+	<table style="width: 100%">
+		<caption style="color: blue;">This is basic table</caption>
+		<tr>
+			<th>Name</th>
+			<th>Phone Number</th>
+			<th>Email</th>
+		</tr>
+		<tr>
+			<td>Nur Ainatul</td>
+			<td>0179087789</td>
+			<td>ainatul@gmail.com</td>
+		</tr>
+		<tr>
+			<td>Muhammad</td>
+			<td>0190990000</td>
+			<td>enna@gmail.com</td>
+		</tr>
+	</table>
+	<p></p>
+	<table style="width: 100%">
+		<caption>This table is using HTML size customization (table column)</caption>
+		<tr>
+			<th style="width: 50%">Name</th>
+			<th style="width: 30%">Phone Number</th>
+			<th>Email</th>
+		</tr>
+		<tr>
+			<td>Nur Ainatul</td>
+			<td>0179087789</td>
+			<td>ainatul@gmail.com</td>
+		</tr>
+		<tr>
+			<td><img src="images/coffee_1.png" style="width: 100px"></td>
+			<td>0190990000</td>
+			<td>enna@gmail.com</td>
+		</tr>
+	</table>
+	<p></p>
+	<table style="width: 100%">
+		<caption>This table is using HTML size customization (table row)</caption>
+		<tr style="height: 100px;">
+			<th>Name</th>
+			<th>Phone Number</th>
+			<th>Email</th>
+		</tr>
+		<tr>
+			<td>Nur Ainatul</td>
+			<td>0179087789</td>
+			<td>ainatul@gmail.com</td>
+		</tr>
+		<tr>
+			<td><img src="images/coffee_1.png" style="width: 100px"></td>
+			<td>0190990000</td>
+			<td>enna@gmail.com</td>
+		</tr>
+	</table>
+
+	<h3 style="text-align: center;">HTML Table Colspan</h3>
+	<table style="width: 100%">
+		<caption>This is using colspan</caption>
+		<tr>
+			<th colspan="2">Name</th>
+			<th>University</th>
+		</tr>
+		<tr>
+			<td>Ahmad</td>
+			<td>Munah</td>
+			<td>UiTM Kelantan</td>
+		</tr>
+		<tr>
+			<td>Salleh</td>
+			<td>Zakaria</td>
+			<td>UTHM</td>
+		</tr>
+	</table>
+
+	<h3 style="text-align:center;">HTML Table Rowspan</h3>
+	<table style="width: 100%">
+		<caption>This is using rowspan</caption>
+		<tr>
+			<th>Name</th>
+			<td>Nur Ainatul Mardiah</td>
+		</tr>
+		<tr>
+			<th rowspan="2">Email</th>
+			<td>ainatulmardiah@uitm.edumy</td>
+		</tr>
+		<tr>
+			<td>ainatul@zanko.com.my</td>
+		</tr>
+	</table>
+
+</body>
+</html>

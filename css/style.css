@@ -1,0 +1,30 @@
+body
+{
+	background-color: lightsalmon;
+}
+p
+{
+	font-family: Lucida Handwriting;
+	color: whitesmoke;
+	font-size: 25px;
+}
+h1
+{
+	font-family: Papyrus;
+}
+h2
+{
+	font-family: Copperplate;
+	color: cadetblue;
+}
+table
+{
+	border: 2px solid blue;
+	border-collapse: collapse;
+	width:500px;
+	text-align: center;
+}
+tr, td, th 
+{
+	border: 1px solid black;
+}
